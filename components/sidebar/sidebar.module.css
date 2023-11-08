@@ -1,0 +1,102 @@
+.sidebar {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 1024px;
+    background-color: #BE0000;
+    background-image: url('../../public/patterns.png')
+}
+.sidebarLogo {
+    display: grid;
+    place-items: center;
+    height: 120px;
+}
+
+.voisicon { 
+    objectFit: "contain";
+}
+
+.sidebarMenu {
+    position: relative;
+    //background-color: green;
+}
+.sidebarMenuItem {
+    /* width:222px;
+    height:45px; */
+    display: flex;
+    align-items: center;
+    place-content: flex-start;
+    padding: 5px;
+    /* transition: color 0.3s ease-in-out; */
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F5C8C8;
+    border-radius: 10px;
+ //background-color: orange;
+}
+.active {
+    background-color: #ffffff; /* Change background color of active item to white */
+    color: red;
+  //background-color: pink;
+}
+.sidebarMenuItemIcon {
+  margin-right: 1rem;
+  //background-color: black;
+}
+
+.sidebarMenuIndicator {
+    position: absolute; 
+    top: 0;
+    right:50%; 
+    width: calc(100% - 40px);
+    border-radius: 10px;
+    background-color: white;
+    z-index: -1;
+    transform: translateX(-50%);
+    transition: 0.3s ease-in-out;
+}
+
+.sidebarMenuItemText{
+padding-left: 10px;
+padding:10px
+
+}
+
+.maintitle{
+font-style: normal;
+font-weight: 400;
+font-size: 16px; 
+line-height: 24px;
+color: #FFFFFF;
+padding-bottom:10px;
+}
+
+
+.dividercontainer{
+width: 213px;
+padding: 40px 5px 0px 5px;
+}
+.dividersolid{
+    border-top: 1px solid #F19696;
+}
+
+.preftitle{
+width:230px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px; 
+line-height: 24px;
+color: #FFFFFF;
+padding-left:10px;
+padding-top:20px;
+padding-bottom:10px
+}
+
+.activeIcon {
+    fill: red; /* Change the icon color to red when active */
+}

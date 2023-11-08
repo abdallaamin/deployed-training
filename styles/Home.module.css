@@ -1,0 +1,230 @@
+/*
+.container {
+  padding: 2 4rem;
+  background-color: #F4F4F4;
+  display: flex;
+  flex: 1
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+*/
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+    background-color:#F8F9F9;
+}
+.rightcontainer{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+/*****************welcome bar styles**********************/
+
+/**************************************************************/
+
+
+/*****************sidebar module **********************/
+.sidebar_container {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 1024px;
+    background-color: #BE0000;
+    align-items: center;
+    //justify-content: center;
+    
+}
+
+.menucontainer{
+display:flex;
+flex-direction:column;
+//font-family: 'Vodafone';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #F5C8C8;
+//background-color:green;
+}
+
+.maintitle{
+//font-family: 'Vodafone Rg';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+padding-bottom:18px;
+}
+.navcards{
+display:flex;
+alignt-item:center;
+justify-content:flex-start;
+//background-color:green;
+width:200px;
+
+}
+.navtitle{
+//background-color:orange;
+padding-left:6px;
+
+}
+
+/*****************top bar module**********************/
+
+
+.maintop{
+width:auto;
+height:65px;
+background:#FFFFFF;
+}
+.topcard{
+position:absolute;
+right:0px;
+height:auto;
+display:flex;
+justify-content:center;
+align-item:center;
+}
+.notificationbtn{
+display:flex;
+justify-content:center;
+align-items:center;
+width:45px;
+height:65px;
+}
+.dividerhorz{
+margin:10px 16px 10px 7px;
+border: 1px solid #D6D7D8;
+}
+/*****************user top card**********************/
+.mainusercard{
+height:65px;
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+}
+
+.usercardlogo{
+border:1px solid #8F251E;
+width:30px;
+height:30px;
+border-radius:50%;
+
+}
+
+.usercardname{
+padding-left:8px;
+padding-right:15px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+
+}
+
+/*****************welcome bar module**********************/
+.welcomemaincontainer {
+    display: flex;
+    flex-direction:column;
+    margin-top: 25px;
+    padding-left:20px;
+}
+.welcometopcontainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.welcomerightcontainer{
+padding-top:3px;
+padding-right:15px;
+}
+.welcomtitle {
+    height: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+    
+}
+
+.welcomemessage {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+}
+.divider{
+    border: 1px solid #D6D7D8;
+    width:99.5%;
+}
+
+
+
+.btncontainer {
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.utilmain {
+    display: flex;
+    flex-direction: row;
+}
+
+.profilepic {
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profileimage {
+    border-radius: 50%;
+    border-color: red;
+    border-style: double;
+
+}
+
+.infomain {
+    padding-left: 18px;
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+
+}
+
+.btn {
+    width: 35px;
+    height: 36px;
+    border-radius: 7px;
+    background-color: red;
+}
+
+
+
+/*****************modal details**********************/
+
+.blackcontainer{
+background: '#333333';
+box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+width: 576px;
+height: 97px;
+}

@@ -1,0 +1,221 @@
+.mangermaincontainer{
+    background-color:'green';
+    background-image: url('../public/mangerbackground.png');
+
+}
+
+.maintop{
+width:100% ;
+height:65px;
+display:flex;
+flex-direction:'row';
+justify-content:space-between;
+align-item:center;
+background-color: #BE0000;
+
+}
+
+.logo{
+padding:15px;
+
+
+}
+
+
+
+/*****************welcome bar module**********************/
+.welcomemaincontainer {
+    display: flex;
+    flex-direction:column;
+    margin-top: 30px;
+    padding-left:18px;
+}
+.welcometopcontainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+/* .welcomerightcontainer{
+padding-top:3px;
+padding-right:15px;
+} */
+
+.welcomtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+    
+}
+
+.welcomemessage {
+    margin-top:8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+    margin-bottom:30px;
+}
+.divider{
+    border: 1px solid #D6D7D8;
+    width:99.5%;
+}
+/* .
+background-color: #BE0000;
+    background-image: url('../../public/patterns.png') */
+
+    /*****************user top card**********************/
+.mainusercard{
+height:65px;
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+}
+
+.usercardlogo{
+border:1px solid white;
+width:30px;
+height:30px;
+border-radius:50%;
+
+}
+
+.usercardname{
+padding-left:8px;
+padding-right:15px;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+color: white;
+
+}
+
+/**************************main selector page **********************/
+/* 
+.selectmainwrapper{
+display:flex;
+flex-direction:'column';
+align-items:'center';
+
+
+} */
+.selecttitle{
+padding-left:18px;
+margin-top:30px;
+color :#BE0000;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+margin-bottom:70px; 
+}
+
+
+.selectbtncontainer{
+    justify-content:'center';
+    align-items:'center';
+    margin-bottom:180px
+}
+
+.cardscontainer{
+    display:flex;
+    flex-direction:'row';
+    justify-content:'space-between';
+    align-items:'center';
+    gap:20px;
+    margin-bottom:120px;
+
+}
+
+
+.welcomerightcontainer{
+    display:'flex';
+    flex-direction:'row';
+    justify-content:'space-between';
+    gap:20px;
+}
+
+/**************************track requests ********************************/
+.tracktitle{
+color:#BE0000;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+margin-left:18px;
+
+}
+
+
+
+/**************************** training request card *******************/
+
+.cardwrapper {
+width: 695px;
+height: 345px;
+border-radius: 10px;
+background:  #FFFF;
+box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+align-items:center;
+}
+
+.cardheader{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+
+}
+
+.cardcontent{
+    display:flex;
+    flex-direction:column;
+
+}
+
+.cardrow{
+    margin-top:25px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.cardrowtitle{
+    color: #4A4D4E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+.cardrowtitlestatus{
+    margin-left:-177px;
+    color: #4A4D4E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.cardrowvalue {
+margin-top:2px;
+color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.cardrowvaluestatus {
+    margin-top:2px;
+color: #000;
+margin-left:-177px;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
