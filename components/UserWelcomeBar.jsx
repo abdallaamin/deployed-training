@@ -11,7 +11,7 @@ const WelcomeBar = () => {
       <div className={styles.welcometopcontainer}>
         <div className={styles.welcomeleftcontainer}>
           <div className={styles.welcomtitle}>Hello Abdalla  👋</div>
-          <div className={styles.welcomemessage}>Let's check your training Requests !</div>
+          <div className={styles.welcomemessage}>Let&apos;s check your training Requests !</div>
         </div>
         <div className={styles.welcomerightcontainer}>
         </div>

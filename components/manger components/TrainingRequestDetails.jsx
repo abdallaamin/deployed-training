@@ -131,7 +131,7 @@ const TrainingModalDetails = () => {
 
                             </div>
                             <div className='imagecontainer' style={{ paddingLeft: '20px', }}>
-                                <Image src={trainingImage} width='100px' height='50px' style={{}} />
+                                <Image src={trainingImage} width='100px' height='50px' style={{}} alt='Training Image'/>
 
                             </div>
                         </div>
@@ -246,7 +246,7 @@ const TrainingModalDetails = () => {
                                             fontSize: '20px',
                                             lineHeight: '28px',
                                             color: '#222222',
-                                        }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</div>
+                                        }}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</div>
                                     </div>
                                 </div>
 

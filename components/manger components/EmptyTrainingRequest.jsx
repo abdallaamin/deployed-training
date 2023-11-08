@@ -15,7 +15,7 @@ const EmptyTrainingRequest = () => {
             fontStyle: 'normal',
             fontWeight: '400',
             lineHeight: '32px',
-        }}>You don't have training requests to track yet. You can add  training requests from the button above</div>
+        }}>You don&apos;t have training requests to track yet. You can add  training requests from the button above</div>
         </>
         )
 }
