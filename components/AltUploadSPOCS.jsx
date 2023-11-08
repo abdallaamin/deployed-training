@@ -120,7 +120,7 @@ export default function AltUploadSPOCS() {
     {
         // const sendData = async () => {
         //     try {
-        //         const response = await axios.post('http://localhost:3900/api/users/addSPOCs', jsonToSent);
+        //         const response = await axios.post(`${API_PREFIX}/users/addSPOCs`, jsonToSent);
         //         setResponse(response.data);
         //     } catch (error) {
         //         console.error('Error:', error);

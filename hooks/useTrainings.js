@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 
 const useTranings = () => {
-    const { data, error, isLoading } = useSWR('http://localhost:3900/api/trainingrequests?requestType=standard', fetcher);
+    const { data, error, isLoading } = useSWR(`${API_PREFIX}/trainingrequests?requestType=standard`, fetcher);
     const [trainingRequestsData, setTrainingRequestsData] = useState([]);
     
     useEffect(() => {

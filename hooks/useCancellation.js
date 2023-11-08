@@ -3,7 +3,7 @@ import fetcher from '../lib/fetcher';
 import { useState, useEffect } from 'react';
 
 const useCancellation = () => {
-    const { data, error, isLoading } = useSwr('http://localhost:3900/api/cancellationrequests', fetcher);
+    const { data, error, isLoading } = useSwr(`${API_PREFIX}/cancellationrequests`, fetcher);
     const [cancellationData, setCancellationData] = useState([]);
     
     

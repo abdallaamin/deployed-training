@@ -11,7 +11,7 @@ import { useState, useEffect } from 'react';
 }
 
 const useUsers = () => {
-    const { data, error, isValidating } = useSwr('http://localhost:3900/api/users/', fetcher);
+    const { data, error, isValidating } = useSwr(`${API_PREFIX}/users/`, fetcher);
     const [usersData, setUsersData] = useState([]);
 
     useEffect(() => {
