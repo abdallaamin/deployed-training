@@ -10,6 +10,7 @@ import Tooltip from '@mui/material/Tooltip';
 import switchlogo from '../../public/switch.png'
 import Logout from '@mui/icons-material/Logout';
 import Image from 'next/image';
+import Link from 'next/link'
 
 export default function AccountMenu() {
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -79,7 +80,7 @@ export default function AccountMenu() {
                 anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
             >
                 <MenuItem onClick={handleClose}>
-                    <div style={{
+                    <Link href="/manager" style={{
                         display: 'flex',
                         flexDirection: 'row',
                         gap:'5px',
@@ -115,17 +116,89 @@ export default function AccountMenu() {
                             letterSpacing: '0.48px',
                             }}>Manager</div>
                         </div>
-                    </div>
+                    </Link>
 
                 </MenuItem>
 
                 <Divider />
 
                 <MenuItem onClick={handleClose}>
-                    <ListItemIcon>
-                        <Image src={switchlogo} width={20} alt="switch" height={20} />
-                    </ListItemIcon>
-                    Switch To SPOC View
+                    <Link href='/admin' style={{
+                        display: 'flex',
+                        flexDirection: 'row',
+                        gap: '5px',
+                    }}>
+                        <Avatar sx={{ width: 60, height: 60 }}>AA</Avatar>
+
+                        <div style={{
+                            display: 'flex',
+                            flexDirection: 'column',
+                            color: '#000',
+                            fontSize: '14px',
+                            fontStyle: 'normal',
+                            fontWeight: '400',
+                            lineHeight: '16px',
+                            letterSpacing: '0.56px',
+                        }}>Abdalla Amin ,Vodafone
+                            <div style={{
+                                color: '#767474',
+                                fontSize: '12px',
+                                fontStyle: 'normal',
+                                fontWeight: '400',
+                                lineHeight: '16px',
+                                letterSpacing: '0.48px',
+                            }}>
+                                Abdalla.amin@vodafone.com
+                            </div>
+                            <div style={{
+                                color: '#BE0000',
+                                fontSize: '12px',
+                                fontStyle: 'normal',
+                                fontWeight: '400',
+                                lineHeight: '16px',
+                                letterSpacing: '0.48px',
+                            }}>Admin</div>
+                        </div>
+                    </Link>
+                </MenuItem>
+                <MenuItem onClick={handleClose}>
+                    <Link href='/spoc' style={{
+                        display: 'flex',
+                        flexDirection: 'row',
+                        gap: '5px',
+                    }}>
+                        <Avatar sx={{ width: 60, height: 60 }}>HS</Avatar>
+
+                        <div style={{
+                            display: 'flex',
+                            flexDirection: 'column',
+                            color: '#000',
+                            fontSize: '14px',
+                            fontStyle: 'normal',
+                            fontWeight: '400',
+                            lineHeight: '16px',
+                            letterSpacing: '0.56px',
+                        }}>Hoda swidan ,Vodafone
+                            <div style={{
+                                color: '#767474',
+                                fontSize: '12px',
+                                fontStyle: 'normal',
+                                fontWeight: '400',
+                                lineHeight: '16px',
+                                letterSpacing: '0.48px',
+                            }}>
+                                Hoda swidan@vodafone.com
+                            </div>
+                            <div style={{
+                                color: '#BE0000',
+                                fontSize: '12px',
+                                fontStyle: 'normal',
+                                fontWeight: '400',
+                                lineHeight: '16px',
+                                letterSpacing: '0.48px',
+                            }}>SPOC</div>
+                        </div>
+                    </Link>
                 </MenuItem>
                 <MenuItem onClick={handleClose}>
                     <ListItemIcon>
